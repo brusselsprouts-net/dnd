@@ -121,7 +121,7 @@ body {
 		&+p::first-letter{
 			float       : left;
 			font-family : Solberry;
-			font-size   : 10em;
+			font-size   : 6em;
 			color       : #222;
 			line-height : 0.8em;
 		}
@@ -356,6 +356,28 @@ body {
 		page-break-inside           : avoid;
 		break-inside                : avoid;
 	}
+    //*****************************
+    // *        NAVIGATION
+    // *****************************/
+    nav{
+        a{
+            margin-top    : 0.2em;
+            margin-bottom : 0.2em;
+            font-family   : MrJeeves;
+            font-weight   : 800;
+            color         : $horizontalRule ;
+            text-decoration: none;
+            margin-right: 0.8em;
+            // border: solid gray 3px;
+            // border-top-left-radius: 255px 15px;
+            // border-top-right-radius: 15px 225px;
+            // border-bottom-right-radius: 225px 15px;
+            // border-bottom-left-radius:15px 255px;
+        }
+        a:hover{
+            color: #B06801;
+        }
+    }
 }
 //*****************************
 // *         SPELL LIST

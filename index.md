@@ -1,23 +1,6 @@
 ---
 layout: default
 ---
-# Page
-this is
-
-go [here](second.md)
-
-
-## double
-
-### triple
-
-#### quadruple
-
->blockquote
->
->whoa
-
-
-| Fuckin | Table |
-| wild | stuff |
-
+# Home
+Welcome to the sprouts dnd library. Here to store various things for easy player access.
+More stuff to come in the future.

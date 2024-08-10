@@ -1,0 +1,5 @@
+- name: Home
+  link: /
+- name: Homebrew Rules
+  link: /reference/homebrew_rules.html
+  
