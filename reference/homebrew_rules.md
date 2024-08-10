@@ -2,7 +2,18 @@
 layout: default
 ---
 
-# Exhaustion
+# Homebrew Rules
+
+#### Bonus Action Healing Potion
+You can drink any healing potion as either an action as a bonus action. When using a bonus action, you roll for the healing result like normal. If you instead drink the potion as an action, you receive the maximum healing that potion can give.
+
+#### Sheathing and Unsheathing as Free Action
+You can sheathe and unsheathe weapons as many times as you want per turn. Let the offhand attacks go wild. (does not apply to shields)
+
+#### Inspiration Post Roll
+You can use inspiration to give reroll a d20 result after you have already rolled it once, but before you know the result of the roll.
+
+### Exhaustion
 This section is about a bunch of rules that change how exhaustion works because it is a bit of an overlooked mechanic.
 #### Simplified Exhaustion
 For each level of exhaustion you suffer a -1 penalty to checks, saving throws, attacks, and spell save DC. If you reach 11 levels of exhaustion, you die.
