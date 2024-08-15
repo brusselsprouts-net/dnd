@@ -13,6 +13,10 @@ You can sheathe and unsheathe weapons as many times as you want per turn. Let th
 #### Inspiration Post Roll
 You can use inspiration to reroll a d20 result after you have already rolled it once, but before you know the result of the roll.
 
+#### Assist Without Proficiency
+Normally you can only assist someone to give them advantage on a skill check if you have proficiency in that skill.
+We will make it so that you can also use a different skill proficiency to assist the check, as long as you can reasonably explain how you use that skill to help.
+
 ### Exhaustion
 This section is about a bunch of rules that change how exhaustion works because it is a bit of an overlooked mechanic.
 #### Simplified Exhaustion
