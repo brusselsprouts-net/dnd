@@ -5,6 +5,7 @@ $headerUnderline       : #c9ad6a;
 $horizontalRule        : #9c2b1b;
 $headerText            : #58180D;
 $monsterStatBackground : #FDF1DC;
+$columnWidth: 8cm;
 .page { margin: 0; }
 body {
 	counter-reset : phb-page-numbers;
@@ -43,9 +44,9 @@ body {
 	position          : relative;
 	z-index           : 15;
 	box-sizing        : border-box;
-	overflow          : hidden;
+	overflow          : hidden; //hidden
 	height            : 279.4mm;
-	width             : 215.9mm;
+	width             : 215.9mm; // 215.9
 	padding           : 1.0cm 1.7cm;
 	padding-bottom    : 1.5cm;
 	background-color  : $background;
@@ -61,6 +62,7 @@ body {
 	p{
 		padding-bottom : 0.8em;
 		line-height    : 1.3em;
+		font-size: 100%;
 		&+p{
 			margin-top : -0.8em;
 		}
@@ -85,6 +87,9 @@ body {
 	}
 	img{
 		z-index : -1;
+		object-fit: contain;
+		// width: $columnWidth;
+		max-width: 100%;
 	}
 	strong{
 		font-weight    : bold;
@@ -102,6 +107,9 @@ body {
 		vertical-align : sub;
 		font-size      : smaller;
 		line-height    : 0;
+	}
+	a{
+		color:#58180D;
 	}
 	//*****************************
 	// *           HEADERS

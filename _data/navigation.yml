@@ -1,5 +1,6 @@
 - name: Home
   link: /
+- name: World
+  link: /reference/world_info.html
 - name: Homebrew Rules
   link: /reference/homebrew_rules.html
-  
