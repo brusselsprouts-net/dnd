@@ -11,7 +11,7 @@ You can drink any healing potion as either an action or as a bonus action. When 
 You can sheathe and unsheathe weapons as many times as you want per turn. Let the offhand attacks go wild. (does not apply to shields)
 
 #### Inspiration Post Roll
-You can use inspiration to reroll a d20 result after you have already rolled it once, but before you know the result of the roll.
+You can use inspiration to reroll a d20 result after you have already rolled it once, but before you know whether the roll succeeds.
 
 #### Assist Without Proficiency
 Normally you can only assist someone to give them advantage on a skill check if you have proficiency in that skill.
