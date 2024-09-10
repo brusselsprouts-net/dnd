@@ -1,25 +1,25 @@
 # New Rules Usage
 The new ruleset (2024 rules) changed a lot of things, but it has some really fun changes so here's how we can use them.
 
-## Spells
+### Spells
 The new spells are in general improved versions of old ones, so you can use them if you want.
 You can distinguish old spells by the "Legacy" tag.
 I am not sure how it will work with the balance, so if we are using a new version of the spell and it turns out to be broken, we might have to revert it to the legacy version.
 Main thing to note is that most healing spells heal double the amount now, so you probably want to switch to those.
 
-## Classes
+### Classes
 The new classes are just fun, so if you want to use it go ahead.
 Only some classes are available for free on D&D Beyond, so you might have to use a different platform or build your character manually (which isn't difficult actually since we are starting at level 1).
 
-### Subclasses
+#### Subclasses
 The new classes should work with old subclasses, but if there's a mistmatch somewhere let me know we'll see if its fixable.
 
-## Backgrounds and Races
+### Backgrounds and Races
 We are gonna change things up in order to make the old backgrounds on par with the new ones. The two main changes with race and backgrounds in the new rules is that ability score improvements come from your background instead of your race, and your background gives you an origin feat.
 
 Here's what we do to make it work, if you are using a legacy race, undo any ability score improvements it grants you. If it gives you a choice of scores to improve choose nothing, and if it is a preset score you can counteract it in the ability score tab of the character builder.
 Below is an example, I chose Elf which has a hard set +2 bonus to dexterity, so I added a -2 override to counteract it.
-![[Species%bonus%override.png]]
+![Score override example](Species%bonus%override.png "Score Override")
 Instead, you improve your ability scores as follows:
 1. Choose 3 ability scores
 2. Either increase one of these scores by 2 and another by 1 or increase each of these scores by 1
