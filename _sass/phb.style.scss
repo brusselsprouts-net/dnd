@@ -39,7 +39,7 @@ body {
 	-moz-column-gap      : 1cm;
 }
 .phb{
-	@include useColumns();
+	// @include useColumns();
 	counter-increment : phb-page-numbers;
 	position          : relative;
 	z-index           : 15;
