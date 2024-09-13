@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # New Rules Usage
 The new ruleset (2024 rules) changed a lot of things, but it has some really fun changes so here's how we can use them.
 
