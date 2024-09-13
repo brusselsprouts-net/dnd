@@ -52,7 +52,7 @@ body {
 	background-color  : $background;
 	background-image  : $backgroundImage;
 	font-family       : BookSanity;
-	font-size         : 0.317cm;
+	// font-size         : 0.317cm;
 	// font-size         : 0.6cm;
 	// font-size: 3rem;
 	text-rendering    : optimizeLegibility;
@@ -64,8 +64,8 @@ body {
 	p{
 		padding-bottom : 0.8em;
 		line-height    : 1.3em;
-		// font-size: 100%;
-		font-size: 1rem;
+		font-size: 100%;
+		// font-size: 1rem;
 		&+p{
 			margin-top : -0.8em;
 		}
@@ -127,33 +127,36 @@ body {
 	h1{
 		column-span         : all;
 		// font-size           : 0.987cm;
-		font-size: 3rem;
+		font-size: 100%;
 		-webkit-column-span : all;
 		-moz-column-span    : all;
 		&+p::first-letter{
 			float       : left;
 			font-family : Solberry;
-			font-size   : 5em;
+			font-size   : 500%;
 			color       : #222;
 			line-height : 0.8em;
 		}
 	}
 	h2{
 		// font-size : 0.705cm;
-		font-size : 2.5rem;
+		font-size : 250%;
 	}
 	h3{
-		font-size     : 0.529cm;
+		// font-size     : 0.529cm;
+		font-size: 200%;
 		border-bottom : 2px solid $headerUnderline;
 	}
 	h4{
 		margin-bottom : 0.00em;
-		font-size     : 0.458cm;
+		// font-size     : 0.458cm;
+		font-size: 170%;
 	}
 	h5{
 		margin-bottom : 0.2em;
 		font-family   : ScalySansSmallCaps;
-		font-size     : 0.423cm;
+		// font-size     : 0.423cm;
+		font-size: 130%;
 		font-weight   : 900;
 	}
 	//*****************************
@@ -163,7 +166,7 @@ body {
 		@include useSansSerif();
 		width         : 100%;
 		margin-bottom : 1em;
-		font-size     : 10pt;
+		font-size     : 90%;
 		thead{
 			display: table-row-group;
 			font-weight : 800;
@@ -200,7 +203,8 @@ body {
 		border-image-outset : 9px 0px;
 		box-shadow          : 1px 4px 14px #888;
 		p, ul{
-			font-size   : 0.352cm;
+			// font-size   : 0.352cm;
+			font-size: 90%;
 			line-height : 1.1em;
 		}
 	}
