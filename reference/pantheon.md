@@ -4,7 +4,7 @@ layout: default
 
 # Pantheon
 
-The Twelve are recognized as the gods of the world, though there exist smaller deities which are less known and considered less powerful than the Twelve.
+The Twelve are recognized by most as the gods of the world. I have heard of a handful other deities, but can only assume, if any of them even exist outside of rumor, that they are less powerful and exude less influence than any of the Twelve.
 
 | Deity                                           | Titles                                 | Symbol                                   |
 | :---------------------------------------------- | :------------------------------------- | :--------------------------------------- |

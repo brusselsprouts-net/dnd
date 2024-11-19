@@ -5,10 +5,10 @@ title: Neverwinter Region
 
 # Neverwinter and Phandalin
 
-The adventure takes place near the town of Neverwinter on the Far Coast, easternmost coast of Farmore.
+On the easternmost coast of Farmore lies the harsh but prosperous city of Neverwinter.
 Farmore is an expansive landmass which, despite efforts of civilization, is still largely ruled by the wilderness.
 Roaming bandits, wild creatures, and monsters have made travel between the independent cities a risky business.
-The larger cities sitting along the Far Coast, recognising this risk have formed "the Pact", an agreement to protect the main trade route known as the Coast Way. This agreement has long kept trade through the continent possible, but all who wish to venture deeper into the continent and away from the well worn path of the Coast way still do so at their own risk.
+Recognising this risk, the larger cities sitting along the Far Coast, among which stands Neverwinter, have formed "the Pact", an agreement to protect the main trade route known as the Coast Way. This agreement has long kept trade through the continent possible, but all who wish to venture deeper into the continent and away from the well worn path of the Coast way still do so at their own risk.
 
 ---
 
