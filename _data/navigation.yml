@@ -2,11 +2,7 @@
   link: /
 - name: World
   link: /reference/world_info.html
-- name: Calendar
-  link: /reference/calendar.html
 - name: Homebrew Rules
   link: /reference/homebrew_rules.html
-- name: Pantheon
-  link: /reference/pantheon.html
 - name: New Rules Usage
   link: /reference/new_rules.html

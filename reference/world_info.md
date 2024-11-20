@@ -1,5 +1,5 @@
 ---
-layout: world
+layout: world_main
 title: World
 ---
 
