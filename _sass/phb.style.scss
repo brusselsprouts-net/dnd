@@ -164,7 +164,7 @@ body {
 	// *****************************/
 	table{
 		@include useSansSerif();
-		width         : 100%;
+		// width         : 100%;
 		margin-bottom : 1em;
 		font-size     : 90%;
 		thead{

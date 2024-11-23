@@ -54,6 +54,7 @@ Consuming a slice of pie restores 1 hp, like a goodberry.
 | 4                                         | 12          |
 | 5                                         | 14          |
 | 6                                         | 16          |
+
 If you fail the save, you become **Poisoned** and gain resistance to bludegeoning damage until the next long rest. If you fail the save again while poisoned, you become unconscious for 1 hour.
 
 ##### Ale
