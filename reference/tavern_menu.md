@@ -4,7 +4,7 @@ layout: default
 
 # Tavern Menu
 
-A respectable tavern in any corner of Ter Merivis will provide its clients with some basic food and drink.
+Any respectable tavern in any corner of Ter Merivis will provide its clients with some basic food and drink, but an enterprising adventurer should keep an eye out for some of the pricier offers that may grant some additional benefits.
 
 | Food Item   | Price |
 | :---------- | :---- |
@@ -96,5 +96,8 @@ _Drink, Common_
 This is a savory bone and veggie broth made in a cast iron cauldron.
 For each cup of broth you drink, you gain +1 to constitution saving throws. This effect lasts until the next long rest.
 
+---
+
+--- 
 
 Credit to [Deck of DM Things](https://www.youtube.com/@deck_of_DM_Things) for the original items
