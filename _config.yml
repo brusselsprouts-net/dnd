@@ -35,7 +35,7 @@ github_username:  jekyll
 #   - jekyll-feed
 
 include:
- - reference/
+ - articles/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

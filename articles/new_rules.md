@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# New Rules Usage
+# 5.5e Rules Usage
 The new ruleset (2024 rules) changed a lot of things, but it has some really fun changes so here's how we can use them.
 
 ### Spells
@@ -13,9 +13,7 @@ Main thing to note is that most healing spells heal double the amount now, so yo
 
 ### Classes
 The new classes are just fun, so if you want to use it go ahead.
-Only some classes are available for free on D&D Beyond, so you might have to use a different platform or build your character manually (which isn't difficult actually since we are starting at level 1).
-
-If you like some particular additions in the new class (weapon mastery for ezample), we might also be able to add just those to the old class, so you can still use D&D Beyond. Again, this won't be too hard since we're starting at level 1. This type of change would be on a case by case basis, so let me know if you're interested.
+All the classes are now available in the free rules on D&D Beyond.
 
 #### Subclasses
 The new classes should work with old subclasses, but if there's a mistmatch somewhere let me know we'll see if its fixable.

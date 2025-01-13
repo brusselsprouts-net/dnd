@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: World
-  link: /reference/world_info.html
+  link: /articles/world_info.html
 - name: Tavern Menu
-  link: /reference/tavern_menu.html
+  link: /articles/tavern_menu.html
 - name: Homebrew Rules
-  link: /reference/homebrew_rules.html
-- name: New Rules Usage
-  link: /reference/new_rules.html
+  link: /articles/homebrew_rules.html
+- name: 5.5e Rules Usage
+  link: /articles/new_rules.html
