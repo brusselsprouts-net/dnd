@@ -47,14 +47,15 @@ body {
 	overflow          : hidden; //hidden
 	height            : 279.4mm;
 	width             : 215.9mm; // 215.9
-	padding           : 1.0cm 1.7cm;
+	// padding           : 1.0cm 1.7cm;
 	padding-bottom    : 1.5cm;
 	background-color  : $background;
 	background-image  : $backgroundImage;
-	font-family       : BookSanity;
+	// font-family       : BookSanity;
+	font-family: Goudy Bookletter 1911;
 	// font-size         : 0.317cm;
 	// font-size         : 0.6cm;
-	// font-size: 3rem;
+	// font-size: 1cm;
 	text-rendering    : optimizeLegibility;
 	page-break-before : always;
 	page-break-after  : always;
@@ -133,7 +134,7 @@ body {
 		&+p::first-letter{
 			float       : left;
 			font-family : Solberry;
-			font-size   : 500%;
+			font-size   : 300%;
 			color       : #222;
 			line-height : 0.8em;
 		}
@@ -377,6 +378,15 @@ body {
     // *        NAVIGATION
     // *****************************/
     nav{
+		padding-bottom: 0.4rem;
+		padding-top: 0.4rem;
+		border-bottom: 5px solid $horizontalRule;
+		border-bottom-right-radius: 100% 15px;
+		border-bottom-left-radius:	100% 15px;
+
+		text-decoration: underline;
+		text-decoration-color: black;
+
         a{
             margin-top    : 0.2em;
             margin-bottom : 0.2em;
@@ -386,6 +396,7 @@ body {
             text-decoration: none;
             margin-right: 0.8em;
 			font-size: 100%;
+
             // border: solid gray 3px;
             // border-top-left-radius: 255px 15px;
             // border-top-right-radius: 15px 225px;
@@ -397,12 +408,13 @@ body {
         }
     }
 	//*****************************
-    // *        NAVIGATION
+    // *        IFRAME
     // *****************************/
 	iframe{
 		column-span: all;
-		width: 100%;
+		width: auto;
         height: 30em;
+		outline-style: dotted;
 	}
 }
 //*****************************
