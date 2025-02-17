@@ -44,6 +44,38 @@
     }
 }
 
+.rightmasked{
+    position: absolute;
+    right:0px;
+    // top: 0px;
+    mask-image:url("https://watercolors.giantsoup.com/dmg/dmg_right/0002.png"), linear-gradient(#000 0 0);
+    mask-position:top right;
+    mask-repeat:no-repeat;
+    mask-size:cover;
+    mask-composite: exclude;
+}
+
+.toprightsmoothmasked{
+    position: absolute;
+    right:0px;
+    // top: 0px;
+    mask-image:url("https://watercolors.giantsoup.com/dmg/dmg_top-right/0008.png"), linear-gradient(#000 0 0);
+    mask-position:top right;
+    mask-repeat:no-repeat;
+    mask-size:cover;
+    mask-composite: exclude;
+}
+
+.topmasked{
+    position: absolute;
+    // top: 0px;
+    mask-image:url("https://watercolors.giantsoup.com/dmg/dmg_top/0001.png"), linear-gradient(#000 0 0);
+    mask-position:top right;
+    mask-repeat:no-repeat;
+    mask-size:cover;
+    mask-composite: exclude;
+}
+
 #banner {
     background: black;
     color:white;
