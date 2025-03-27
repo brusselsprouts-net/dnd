@@ -17,6 +17,16 @@ You can use inspiration to reroll a d20 result after you have already rolled it 
 ### Exhaustion
 We will be using the 2024 exhaustion rules since they simplify it pretty nicely, with the extra addition of Extra Effort as another way to gain exhaustion.
 
+| Exhaustion Level | D20 Test Penalty | Movement Speed Reduction |
+| ---------------- | ---------------- | ------------------------ |
+| 1                | -2               | -5                       |
+| 2                | -4               | -10                      |
+| 3                | -6               | -15                      |
+| 4                | -8               | -20                      |
+| 5                | -10              | -25                      |
+| 6                | Death            | Death                    |
+
+
 #### Extra Effort
 You can exert yourself beyond your normal limits and the cost of gaining exhaustion. If you are out of uses for a class feature (fighter's action surge, monk's ki points, druid wildshape, sorcerer sorcery points, etc.) you can gain 1 point of exhaustion to restore 1 charge of the feature. For spellcasters, you can regain a spellslot by gaining 1 point of exhaustion per level of the spellslot.
 
