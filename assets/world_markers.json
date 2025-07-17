@@ -1,0 +1,39 @@
+{
+    "markers": {
+        "Neverwinter": {
+            "name": "Neverwinter",
+            "x": -205,
+            "y": 104
+        },
+        "Phandalin": {
+            "name": "Phandalin",
+            "x": -221,
+            "y": 124
+        },
+        "Millramith": {
+            "name": "Millramith",
+            "x": -250,
+            "y": 171
+        },
+        "Itagate": {
+            "name": "Itagate",
+            "x": -272,
+            "y": 125
+        },
+        "Liambek": {
+            "name": "Liambek",
+            "x": -359,
+            "y": 144
+        },
+        "Dord": {
+            "name": "Dord",
+            "x": -503,
+            "y": 154
+        },
+        "Spearpoint": {
+            "name": "Spearpoint Town",
+            "x": -126,
+            "y": 743
+        }
+    }
+}

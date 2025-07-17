@@ -1,11 +1,42 @@
-<iframe id="mapiframe" src="https://www.worldanvil.com/w/ter-merivis-egorobi/map/5121821f-e9dd-4a13-8d3d-eab4b71bd94f" title="World Map"></iframe>
-<style>
-    #mapiframe {
-        position: relative;
-        /* width: 90vw; */
-        width: calc(100vw - 2rem);
-        /* height: 50em; */
-        height: calc(80vw);
-        /* margin-right: 1em; */
-    }
-</style>
+<div id="map"></div>
+
+<script>
+// var map = L.map('map').setView([35.185, 33.382], 13);
+
+// L.tileLayer("/assets/Ter%20Merivis.jpg", {
+// maxZoom: 19
+// }).addTo(map);
+var map = L.map('map', {
+    minZoom: 0,
+    maxZoom: 3,
+    center: [0, 0],
+    zoom: 1,
+    crs: L.CRS.Simple
+});
+var w = 3200;
+var h = 2400;
+var url = '/assets/Ter%20Merivis.jpg';
+var southWest = map.unproject([ 0, h], map.getMaxZoom()-1);
+var northEast = map.unproject([ w, 0], map.getMaxZoom()-1);
+var bounds = new L.LatLngBounds( southWest, northEast);
+
+// bounds = [[0,0], [1000,1000]];
+
+L.imageOverlay( url, bounds).addTo(map);
+
+map.setMaxBounds(bounds);
+
+// var marker = L.marker([-130, 128]).bindPopup("<b>Neverwinter</b>").addTo(map);
+
+$.getJSON( "/assets/world_markers.json", function(json1) {
+   for(var key in json1.markers){
+     var latLng = L.latLng([json1.markers[key].x, json1.markers[key].y]);
+     L.marker(latLng).bindPopup("<b>"+ json1.markers[key].name + "</b>").addTo(map);
+   }
+ });
+
+map.on('click', function(ev){
+  var latlng = map.mouseEventToLatLng(ev.originalEvent);
+  console.log(latlng.lat + ', ' + latlng.lng);
+});
+</script>
