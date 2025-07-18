@@ -3,42 +3,50 @@
         "Neverwinter": {
             "name": "Neverwinter",
             "x": -205,
-            "y": 104
+            "y": 104,
+            "color": "chocolate"
         },
         "Phandalin": {
             "name": "Phandalin",
             "x": -221,
-            "y": 124
+            "y": 124,
+            "color": "darkorange"
         },
         "Millramith": {
             "name": "Millramith",
             "x": -250,
-            "y": 171
+            "y": 171,
+            "color": "chocolate"
         },
         "Itagate": {
             "name": "Itagate",
             "x": -272,
-            "y": 125
+            "y": 125,
+            "color": "chocolate"
         },
         "Liambek": {
             "name": "Liambek",
             "x": -359,
-            "y": 144
+            "y": 144,
+            "color": "chocolate"
         },
         "Dord": {
             "name": "Dord",
             "x": -503,
-            "y": 154
+            "y": 154,
+            "color": "darkorchid"
         },
         "Spearpoint": {
             "name": "Spearpoint Town",
             "x": -126,
-            "y": 743
+            "y": 743,
+            "color": "lightblue"
         },
         "Hotenaw": {
-            "name": "Mt Hotenaw",
+            "name": "Mount Hotenaw",
             "x": -188,
-            "y": 107
+            "y": 107,
+            "color": "lightslategray"
         }
     }
 }
