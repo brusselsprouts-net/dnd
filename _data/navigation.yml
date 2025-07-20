@@ -2,9 +2,9 @@
   link: /
 - name: World
   link: /articles/world_info.html
-- name: Tavern Menu
-  link: /articles/tavern_menu.html
 - name: Homebrew Rules
   link: /articles/homebrew_rules.html
 - name: 5.5e Rules Usage
   link: /articles/new_rules.html
+- name: Party Log
+  link: /articles/party_log.html

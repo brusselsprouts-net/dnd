@@ -47,40 +47,43 @@ function showMarkerSidebar(title, content, date=null){
 }
 
 $.getJSON( "/assets/party_log_markers.json", function(json1) {
-   for(var key in json1.markers){
-    var latLng = L.latLng([json1.markers[key].x, json1.markers[key].y]);
-    var color = "slateblue";
-    if (json1.markers[key].hasOwnProperty("color")) {
-      color = json1.markers[key].color;
+  var count = 1;
+  for(var key in json1.markers){
+  var latLng = L.latLng([json1.markers[key].x, json1.markers[key].y]);
+  var color = "slateblue";
+  if (json1.markers[key].hasOwnProperty("color")) {
+    color = json1.markers[key].color;
+  }
+
+  let description = "";
+  let title = json1.markers[key].name;
+
+  if (json1.markers[key].hasOwnProperty("description")) {
+    for (const paragraph of json1.markers[key].description){
+      description += "<p>" + paragraph + "</p>"
     }
+  }
 
-    let description = "";
-    let title = json1.markers[key].name;
+  let date = null;
+  if (json1.markers[key].hasOwnProperty("date")) {
+    date = json1.markers[key].date;
+  }
 
-    if (json1.markers[key].hasOwnProperty("description")) {
-      for (const paragraph of json1.markers[key].description){
-        description += "<p>" + paragraph + "</p>"
-      }
-    }
+  var marker = new L.Marker.SVGMarker(latLng, { iconOptions: { color: color , circleFillColor: color, circleText: count.toString(), fontSize: 10, fontWeight: "bold", fontColor: "white", fillOpacity: "1", circleRatio: "0.6", iconSize: [20, 32]}}).bindPopup("<h5>"+ title + "</h5>").addTo(map);
 
-    let date = null;
-    if (json1.markers[key].hasOwnProperty("date")) {
-      date = json1.markers[key].date;
-    }
+  marker.on('mouseover', function (e) {
+      this.openPopup();
+  });
 
-    var marker = new L.Marker.SVGMarker(latLng, { iconOptions: { color: color , fillOpacity: "1", circleRatio: "0.5", iconSize: [20, 32]}}).bindPopup("<h5>"+ title + "</h5>").addTo(map);
+  marker.on("click", function (e) {
+      showMarkerSidebar(title, description, date);
+  })
 
-    marker.on('mouseover', function (e) {
-        this.openPopup();
-    });
+  marker.on('mouseout', function (e) {
+      this.closePopup();
+  });
 
-    marker.on("click", function (e) {
-        showMarkerSidebar(title, description, date);
-    })
-
-    marker.on('mouseout', function (e) {
-        this.closePopup();
-    });
+  count++;
    }
  });
 
