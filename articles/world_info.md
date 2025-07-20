@@ -14,3 +14,5 @@ Welcome to the mega-archipelago of Ter Merivis.
 - [The Far Coast](far_coast.md) where Neverwinter lies
 
 ## World Map
+
+<div id="map"></div>

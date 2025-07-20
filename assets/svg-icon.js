@@ -140,9 +140,6 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         var x = l * Math.cos(alpha)
         var y = l * Math.sin(alpha)
 
-        console.log(x)
-        console.log(y)
-
         // var startPoint = "M " + margin + " " + (width/2) + " "
         // var leftLine = "L " + (width/2) + " " + (height - weight) + " "
         // var rightLine = "L " + (width - margin) + " " + (width/2) + " "
@@ -154,8 +151,6 @@ L.DivIcon.SVGIcon = L.DivIcon.extend({
         var arc = "A " + (width/2) + " " + (width/2) + " 0 1 0 " + (width/4 - x + margin) + " " + (height - y) + " Z"
 
         var d = startPoint + leftLine + rightLine + arc
-
-        console.log(d)
 
         return d
     },

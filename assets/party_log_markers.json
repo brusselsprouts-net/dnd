@@ -1,0 +1,70 @@
+{
+    "markers": {
+        "Adventure Start": {
+            "name": "The Adventure Begins",
+            "x": -1755,
+            "y": 580,
+            "color": "firebrick",
+            "date": "15th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["A curious group of adventurers is hired by the dwarven explorer Gundren Rockseeker who claims to have discovered the lost Wave Echo cave, home to the Forge of Spells.",
+            "The party sets out from Neverwinter on a wagon of supplies a few days behind their employer to catch up to him in the mining town of Phandalin."]
+        },
+        "Goblin Ambush": {
+            "name": "Goblin Ambush",
+            "x": -2620,
+            "y": 1333,
+            "color": "firebrick",
+            "date": "17th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["On the road to Phandalin the party discovers a pair of dead horses on the road and are ambushed by a group of goblins. After fighting off the assailants the party discovers a small camp and a trail leading to the north but choose to continue on their way to Phandalin."]
+        },
+        "Arrival in Phandalin": {
+            "name": "Arrival in Phandalin",
+            "x": -2830,
+            "y": 1499,
+            "color": "firebrick",
+            "date": "17th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["Arriving in the small mining town the party discovers that their employer has not yet arrived despite being ahead of them. Having delivered their wagon to the local supply store they set out to find places to rest for the night, and Spearnon manages to find a suspicious basement in the nearby ruins.",
+            "The next morning the party wakes up to a commotion in the streets to find Spearnon being dragged into the town square by thugs in red cloaks. After rescuing Spearnon and fighting off the bandits the party sets to looking for supplies and information about their employer",
+            "Believing Gundren may have been kidnapped by the same bandits that captured Spearnon the party takes on a quest to recover a missing shipment of supplies and weapons for Linene Graywind from the Lionshield Coster."]
+        },
+        "Goblin Hideout": {
+            "name": "Goblin Hideout",
+            "x": -2538,
+            "y": 1334,
+            "color": "mediumslateblue",
+            "date": "20th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["The party track the missing supplies to a goblin camp north of the spot where they were ambushed by goblins on their way to Phandalin and discover a goblin hideout in a cave.",
+            "While clearing out the caves, the party rescues a man named Sildar Hallwinter, an agent of the Lords' Alliance who escorted Gundren Rockseeker to Phandalin until they were attacked and captured by goblins. Sildar overheard the goblins talking about some place called Cragmaw Castle and some kind of \"Black Bug\" after which Gundren was taken away."]
+        },
+        "The Redbrands": {
+            "name": "The Redbrands",
+            "x": -2821,
+            "y": 1531,
+            "color": "rebeccapurple",
+            "date": "22nd day of the Third Bloom Crescent, 1372 AD",
+            "description": ["Returning to Phandalin, the party discovers that the Lionshield Coster has been raided by Redbrands and Linene is missing. After cracking the security on the supplies they recovered they arm themselves to take on the Redbrands.",
+            "Fighting through the Redbrands' base under the ruins of a mansion the party rescues Linene and the Dendrar family, battle a Nothic, recoer Spearnon's stolen gear, avoid Bugbears working with the Redbrands, and finally confront the wizard Glasstaff.",
+            "After a prolonged battle the party captures the wizard and interrogates him for information. They discover that Glasstaff used to be a member of the Lords' Alliance and an ally of Sildar but has turned sides. He has been working with someone named the Black Spider who is searcing for Wave Echo cave much as Gundren was. They also find out that the Cragmaw Castle seems to be the Black Spider's base of operations and is located deep in the Neverwinter Wood.",
+            "Preparing to set out on a difficult journey to rescue Gundren from Cragmaw Castle the party hears of a druid named Reidoth who lives in the ruins of Thundertree and could be the only person who can help them find the castle."]
+        },
+        "Dragons and Druids": {
+            "name": "Dragons and Druids",
+            "x": -1773,
+            "y": 1264,
+            "color": "rebeccapurple",
+            "date": "25th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["In the overgrown ruins of Thundertree plagued by undead and living plants the party meets someone who introduces themselves as the druid Reidoth and asks them to retrieve some stolen Roc eggs in exchange for the location of Cragmaw Castle.",
+                            "After recovering the eggs from a group of dragon worshippers the party realizes the eggs are more draconic than avian and decide to try tricking the druid instead of returning the eggs to them. With a skilled illusion spell their plan works, but only for a minute until the spell wears off and the enraged druid reveals its true form, that of a Green Dragon.",
+                            "Battling the dragon through the ruins of the village the party is joined by sabretooth tiger who is revealed to be the real Reidoth who managed to escape his confinement in the chaos of the battle. With the aid of the druid the party manages to slay the dragon even as it tries to flee.",
+                            "Thankful for their intervention, Reidoth gives the party guidance to safely navigate the Neverwinter Wood to Cragmaw Castle and they set off from Thundertree."]
+        },
+        "Cragmaw Castle": {
+            "name": "Cragmaw Castle",
+            "x": -1662,
+            "y": 1710,
+            "color": "rebeccapurple",
+            "date": "29th day of the Third Bloom Crescent, 1372 AD",
+            "description": ["The party arrives at an old castle deep in the Neverwinter Wood, narrowly avoiding a goblin patrol on the way."]
+        }
+    }
+}

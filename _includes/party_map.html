@@ -1,0 +1,91 @@
+<!-- <div id="map"></div> -->
+
+<script src="/sidebar/L.Control.Sidebar.js"></script>
+
+<script>
+// var map = L.map('map').setView([35.185, 33.382], 13);
+
+// L.tileLayer("/assets/Ter%20Merivis.jpg", {
+// maxZoom: 19
+// }).addTo(map);
+var map = L.map('map', {
+    minZoom: -2.8,
+    maxZoom: 1,
+    center: [0, 0],
+    zoom: -2.5,
+    crs: L.CRS.Simple
+});
+var w = 2648;
+var h = 3625;
+// var url = '/assets/Ter%20Merivis.jpg';
+var url = '/assets/Party%20Route.jpg';
+var southWest = map.unproject([ 0, h], map.getMaxZoom()-1);
+var northEast = map.unproject([ w, 0], map.getMaxZoom()-1);
+var bounds = new L.LatLngBounds( southWest, northEast);
+
+L.imageOverlay( url, bounds).addTo(map);
+
+map.setMaxBounds(bounds);
+
+var sidebar = L.control.sidebar('sidebar', {
+    position: 'left',
+    autoPan: false
+});
+
+map.addControl(sidebar);
+
+function showMarkerSidebar(title, content, date=null){
+  var sidebarContent = "<h2>" + title + "</h2>";
+  if (date != null) {
+    sidebarContent += "<em>" + date + "</em>";
+  }
+  sidebarContent += "<hr>";
+  sidebarContent += content;
+  console.log(sidebarContent);
+  sidebar.setContent(sidebarContent);
+  sidebar.show();
+}
+
+$.getJSON( "/assets/party_log_markers.json", function(json1) {
+   for(var key in json1.markers){
+    var latLng = L.latLng([json1.markers[key].x, json1.markers[key].y]);
+    var color = "slateblue";
+    if (json1.markers[key].hasOwnProperty("color")) {
+      color = json1.markers[key].color;
+    }
+
+    let description = "";
+    let title = json1.markers[key].name;
+
+    if (json1.markers[key].hasOwnProperty("description")) {
+      for (const paragraph of json1.markers[key].description){
+        description += "<p>" + paragraph + "</p>"
+      }
+    }
+
+    let date = null;
+    if (json1.markers[key].hasOwnProperty("date")) {
+      date = json1.markers[key].date;
+    }
+
+    var marker = new L.Marker.SVGMarker(latLng, { iconOptions: { color: color , fillOpacity: "1", circleRatio: "0.5", iconSize: [20, 32]}}).bindPopup("<h5>"+ title + "</h5>").addTo(map);
+
+    marker.on('mouseover', function (e) {
+        this.openPopup();
+    });
+
+    marker.on("click", function (e) {
+        showMarkerSidebar(title, description, date);
+    })
+
+    marker.on('mouseout', function (e) {
+        this.closePopup();
+    });
+   }
+ });
+
+map.on('click', function(ev){
+  var latlng = map.mouseEventToLatLng(ev.originalEvent);
+  console.log(latlng.lat + ', ' + latlng.lng);
+});
+</script>

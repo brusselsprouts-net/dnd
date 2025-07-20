@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="shortcut icon" href="/favicon.ico?"/>
+        <link rel="stylesheet" href="/sidebar/L.Control.Sidebar.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% include leaflet.html %}
+        <style>
+            #sidebar {
+            font-family: ScalySans;
+            font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <header role="banner" id="banner">
+            <h1> {{ site.title }}</h1>
+        </header> -->
+        <main role="main" id="main" class="phb">
+        {% include navigation.html %}
+        {{ content }}
+        {% include party_map.html %}
+        </main>
+        <footer role="contentinfo" id="contentinfo">
+        </footer>
+    </body>
+</html>

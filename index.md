@@ -7,5 +7,6 @@ Accomodating shenanigans since 2024.
 
 ### Content
 1. Go to [Homebrew Rules](articles/homebrew_rules.md) to reference homebrew rules.
-2. Maps and lore about the world can be found in [World](articles/world_info.md), this will be updated as the game goes on.
+2. Maps and lore about the world can be found in [World](articles/world_info.md).
 3. Instructions for how to use the new rules are in [New Rules Usage](articles/new_rules.md).
+4. A summary of important events in the campaign is in the [Party Log](articles/party_log.md)
