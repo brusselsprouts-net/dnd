@@ -13,7 +13,8 @@ var map = L.map('map', {
     maxZoom: 1,
     center: [0, 0],
     zoom: -2.5,
-    crs: L.CRS.Simple
+    crs: L.CRS.Simple,
+    attributionControl:false
 });
 var w = 2648;
 var h = 3625;
@@ -41,7 +42,6 @@ function showMarkerSidebar(title, content, date=null){
   }
   sidebarContent += "<hr>";
   sidebarContent += content;
-  console.log(sidebarContent);
   sidebar.setContent(sidebarContent);
   sidebar.show();
 }
@@ -89,6 +89,6 @@ $.getJSON( "/assets/party_log_markers.json", function(json1) {
 
 map.on('click', function(ev){
   var latlng = map.mouseEventToLatLng(ev.originalEvent);
-  console.log(latlng.lat + ', ' + latlng.lng);
+  console.log('"x": ' + latlng.lat.toFixed(1) + ', "y": ' + latlng.lng.toFixed(1))
 });
 </script>

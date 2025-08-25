@@ -11,7 +11,8 @@ var map = L.map('map', {
     maxZoom: 3,
     center: [0, 0],
     zoom: 1,
-    crs: L.CRS.Simple
+    crs: L.CRS.Simple,
+    attributionControl:false
 });
 var w = 3200;
 var h = 2400;
@@ -60,6 +61,6 @@ $.getJSON( "/assets/world_markers.json", function(json1) {
 
 map.on('click', function(ev){
   var latlng = map.mouseEventToLatLng(ev.originalEvent);
-  console.log(latlng.lat + ', ' + latlng.lng);
+  console.log('"x": ' + latlng.lat.toFixed(1) + ', "y": ' + latlng.lng.toFixed(1))
 });
 </script>
