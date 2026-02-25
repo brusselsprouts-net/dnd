@@ -64,7 +64,19 @@
             "y": 1710,
             "color": "rebeccapurple",
             "date": "29th day of the Third Bloom Crescent, 1372 AD",
-            "description": ["The party arrives at an old castle deep in the Neverwinter Wood, narrowly avoiding a goblin patrol on the way."]
+            "description": ["The party arrives at an old castle deep in the Neverwinter Wood, narrowly avoiding a goblin patrol on the way.",
+                            "Sneaking and then fighting through the castle inhabitants, the party rescues Gundren Rockseeker and clears his mind through elven magic hidden beneath the castle, but realizes that the Black Spider who captured him has already left to Wave Echo Cave."]
+        },
+        "Wave Echo Cave": {
+            "name": "Wave Echo Cave",
+            "x": -2762.9, 
+            "y": 2085.9,
+            "color": "MediumVioletRed",
+            "date": "5th day of the Fourth Bloom Crescent, 1372 AD",
+            "description": ["Following dangerous and hidden tunnels through the Sword Mountains, the party arrives at the lost Wave Echo Cave to find that the Black Spider has beaten them here and killed one of Gundren's brothers camped here, capturing the other.",
+                            "The party finds the lost mines filled with undead and strange magic, but manage to delve deep and find the Forge of Spells.",
+                            "From their observations and a conversation with a wraith of the High Mage the party unveils the catastrophe that destroyed the mines, the raid which laid siege to it and the intrusion of some unknown terror from the Shadowfell in which it culminated.",
+                            "Avoiding the deadly guardians of the mines, the party finally confronts the Black Spider and defeat him in battle during which the mage undergoes a horrifying transformation into a drider."]
         }
     }
 }

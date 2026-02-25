@@ -4,7 +4,7 @@ layout: world
 
 # Pantheon
 
-The Twelve are recognized by most as the gods of the world. I have heard of a handful other deities, but can only assume, if any of them even exist outside of rumor, that they are less powerful and exude less influence than any of the Twelve.
+The Twelve are recognized by most as the gods of the world, and their arrival was responsible for ending the Age of Chaos, letting civilization finally recover. Rare rumors speak of other, unrecognized deities but the religions of the Twelve teach against heeding life to such blasphemy.
 
 | Deity                                           | Titles                                 | Symbol                                   |
 | :---------------------------------------------- | :------------------------------------- | :--------------------------------------- |
