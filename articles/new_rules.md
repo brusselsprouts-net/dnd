@@ -11,6 +11,9 @@ You can distinguish old spells by the "Legacy" tag.
 I am not sure how it will work with the balance, so if we are using a new version of the spell and it turns out to be broken, we might have to revert it to the legacy version.
 Main thing to note is that most healing spells heal double the amount now, so you probably want to switch to those.
 
+## Ritual Casting
+In 5.5e ritual casting no longer requires a special feature, any class can cast a spell they have prepared as a ritual if the spell has the Ritual tag. This adds 10 minutes to the casting time of the spell but does not consume a spell slot.
+
 ### Classes
 The new classes are just fun, so if you want to use it go ahead.
 All the classes are now available in the free rules on D&D Beyond.

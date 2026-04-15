@@ -8,8 +8,10 @@ layout: default
 #### Bonus Action Healing Potion
 You can drink any healing potion as either an action or as a bonus action. When using a bonus action, you roll for the healing result like normal. If you instead drink the potion as an action, you receive the maximum healing that potion can give.
 
-#### Sheathing and Unsheathing as Free Action
-You can sheathe and unsheathe weapons as many times as you want per turn. Let the offhand attacks go wild. (does not apply to shields)
+#### Sheathing and Unsheathing Weapons
+When rolling initiative you choose the weapons that you start combat with. You can switch one weapon you are holding when you make an Attack, before you make the attack with it (scales with features like Extra Attack). Switching between two-handed and one-handed grips on Versatile weapons is free if your second hand is already empty.
+If you make no attacks on your turn you can switch one weapon you are wielding for free.
+Shields take a full action to don or doff, and you choose whether to have it equipped when you enter initiative.
 
 #### Inspiration Post Roll
 You can use inspiration to reroll a d20 result after you have already rolled it once, but before you know the result of the roll.
