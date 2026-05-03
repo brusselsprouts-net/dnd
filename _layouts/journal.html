@@ -28,7 +28,13 @@
     {% include navigation.html %}
     <div class="journal-container">
       <aside class="journal-toc">
-        {{ page.toc | default: '' }}
+        <!-- include the toc from the data file automatically -->
+        <h3>Table of Contents</h3>
+        <ul>
+          {% for item in site.data.journal_toc %}
+          <li><a href="{{item.url}}">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
       </aside>
       <article class="journal-content">
         {{ content }}
@@ -37,6 +43,9 @@
   </main>
   <footer role="contentinfo" id="contentinfo">
   </footer>
+  <script>
+    <!-- make names automatically get colored -->
+  </script>
 </body>
 
 </html>

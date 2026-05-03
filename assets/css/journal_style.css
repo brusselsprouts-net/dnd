@@ -76,3 +76,32 @@
 .journal-content section {
     margin-bottom: 30px;
 }
+
+.name-highlight {
+    font-weight: 700;
+}
+
+.name-thalia {
+    color: #2f633a;
+}
+
+.name-lachlan {
+    color: #218484;
+}
+
+.name-kaimi {
+    color: #d75b1d;
+}
+
+.name-talon {
+    color: #402813;
+}
+
+.name-sillidious {
+    color: #6d6d6d;
+}
+
+/* Character/name highlight helpers */
+.name-highlight {
+    font-weight: 700;
+}
