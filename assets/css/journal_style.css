@@ -6,6 +6,11 @@
     padding: 1em;
 }
 
+.journal-container p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .journal-toc {
     flex: 0 0 250px;
     position: sticky;
