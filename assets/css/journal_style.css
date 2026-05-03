@@ -1,8 +1,7 @@
 .journal-container {
     display: flex;
+    max-width: 100%;
     gap: 20px;
-    max-width: 1400px;
-    margin: 0 auto;
     padding: 20px;
 }
 
@@ -11,34 +10,25 @@
     position: sticky;
     top: 20px;
     height: fit-content;
-    background: #f5f1de;
-    padding: 20px;
+    background: #fffcf0;
+    padding: 1rem;
     border: 2px solid #8b7355;
     border-radius: 5px;
     overflow-y: auto;
-    max-height: calc(100vh - 40px);
+    max-height: calc(100vh - 2rem);
 }
 
 .journal-toc h3 {
-    margin-top: 0;
-    font-size: 1.2em;
     color: #5c3d2e;
 }
 
-.journal-toc ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .journal-toc li {
-    margin: 10px 0;
+    margin: 0.3rem 0;
 }
 
 .journal-toc a {
     color: #5c3d2e;
-    text-decoration: none;
-    font-size: 0.95em;
+    font-size: 1.2rem;
 }
 
 .journal-toc a:hover {
@@ -49,59 +39,36 @@
 .journal-content {
     flex: 1;
     background: #fffcf0;
-    padding: 40px;
+    padding: 2rem;
     border: 3px solid #8b7355;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
-    min-height: 600px;
-    line-height: 1.8;
+    min-height: fit-content;
+    line-height: 1.5;
     font-family: "Georgia", serif;
-    font-size: 1.05em;
-}
-
-.journal-content h1 {
-    font-size: 2em;
-    color: #5c3d2e;
-    margin-top: 0;
-    border-bottom: 2px solid #d4a574;
-    padding-bottom: 10px;
-}
-
-.journal-content h2 {
-    font-size: 1.5em;
-    color: #5c3d2e;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.journal-content section {
-    margin-bottom: 30px;
-}
-
-.name-highlight {
-    font-weight: 700;
+    font-size: 1.4rem;
 }
 
 .name-thalia {
-    color: #2f633a;
+    color: #419954;
+    font-weight: 700;
 }
 
 .name-lachlan {
-    color: #218484;
+    color: #d30202;
+    font-weight: 700;
 }
 
 .name-kaimi {
     color: #d75b1d;
+    font-weight: 700;
 }
 
 .name-talon {
-    color: #402813;
+    color: oklab(45.58% 0.02345 0.09286);
+    font-weight: 700;
 }
 
 .name-sillidious {
     color: #6d6d6d;
-}
-
-/* Character/name highlight helpers */
-.name-highlight {
     font-weight: 700;
 }
