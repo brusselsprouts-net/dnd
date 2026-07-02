@@ -1,6 +1,6 @@
 ---
 layout: journal
-title: The Beginning
+title: The First Fight
 ---
 ### The First Fight - <span class='name-lachlan'> Lachlan </span>'s Bedroom Adventures Aftermath
 #### March 30, 2026

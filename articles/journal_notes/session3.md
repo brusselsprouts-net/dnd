@@ -1,6 +1,6 @@
 ---
 layout: journal
-title: The Beginning
+title: The Plot Thickens
 ---
 ### The Plot Thickens - Cheating Scandal Hits Neverwinter!
 #### May 1, 2026
