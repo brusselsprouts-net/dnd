@@ -1,0 +1,18 @@
+- year: 
+  title: "Age of Arcana"
+  desc: "Much of Ter Merivis is covered in ancient ruins that speak of an advanced civilization having once populated these lands. What little history remains of the time this civilization still stood refers to it as the Kalenthar Empire. Kalenthar spanned the majority of the world, and was ruled by powerful mages. The time during which the empire ruled the world is refered to as the Age of Arcana."
+- year: 
+  title: "Age of Chaos"
+  desc: "It is not known what caused the collapse of Kalenthar, but it lead to a period of chaos during which the world was wracked by both political conflict and unexplained magical disasters. The duration of this period of history is unclear, and is called the Age of Chaos."
+- year: 
+  title: "Arrival of the Gods"
+  desc: "Following an unknown amount of time from the fall of Kalenthar, the gods arrived to Ter Merivis. Soon the divines of the Pantheon of the Twelve were worshipped around the world as saviors and protectors. With the arrival of the gods, the magical disasters subsided, until the chaos was no more and life could begin anew, thus began the Era of Reclamation."
+- year: 
+  title: "Era of Reclamation"
+  desc: "The Era of Reclamation is the period during which the world recovered from the damage done to it during the Age of Chaos. During this time civilization existed in disparate groups that slowly grew into the cultures seen around the world today. Communication between these groups was difficult, and records of this time are hard to intepret and at times conflicting. It is estimated that the Era of Reclamation lasted approximately 800 years, but this is still debated in historical circles."
+- year: "0 AD"
+  title: "Age of Divinity"
+  desc: "Though the arrival of the Gods brought an end to the Age of Chaos there was still plenty of disorder in the world. Multiple centuries into the Era of Reclamation the world was prepared to return to a sembalnce of what it was, and a symbol of this was the establishment of the Standard Calendar and the beginning of the Age of Divinity."
+- year: "1372 AD"
+  title: "Current Time"
+  desc: ""

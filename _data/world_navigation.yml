@@ -1,5 +1,7 @@
 - name: World
   link: /articles/world_info.html
+- name: History
+  link: /articles/history.html
 - name: Calendar
   link: /articles/calendar.html
 - name: Pantheon
